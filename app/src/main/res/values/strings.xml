@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Hello Android</string>
+    <string name="positive_quote">Helping people shoot for the stars since 2012! Join us
+        to start your new adventure of a lifetime!</string>
+    <string name="contact_info">Come visit Udacity at\n2465 Latham St.\nMountain View, CA 94043</string>
+    <string name="phone">Give us a call 650&#8211;555&#8211;5555</string>
+    <string name="website">Check out our courses www.udacity.com</string>
+</resources>

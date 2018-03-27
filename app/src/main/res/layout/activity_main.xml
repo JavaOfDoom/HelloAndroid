@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/shooting_star" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"
+        android:src="@drawable/udacity_03" />
+
+    <TextView
+        android:id="@+id/inspiration"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:autoSizeTextType="uniform"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/positive_quote"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:fontFamily="@font/ubuntu" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/inspiration"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-10dp"
+        android:autoLink="map"
+        android:autoSizeTextType="uniform"
+        android:padding="16dp"
+        android:text="@string/contact_info"
+        android:textColor="@color/white"
+        android:textColorLink="@color/colorPrimaryDark"
+        app:fontFamily="@font/ubuntu" />
+
+    <TextView
+        android:id="@+id/phoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/address"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-10dp"
+        android:layout_marginTop="-10dp"
+        android:autoLink="phone"
+        android:autoSizeTextType="uniform"
+        android:padding="16dp"
+        android:text="@string/phone"
+        android:textColor="@color/white"
+        android:textColorLink="@color/colorPrimaryDark"
+        app:fontFamily="@font/ubuntu" />
+
+    <TextView
+        android:id="@+id/websiteLink"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/phoneNumber"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-10dp"
+        android:autoLink="web"
+        android:autoSizeTextType="uniform"
+        android:padding="16dp"
+        android:text="@string/website"
+        android:textColor="@color/white"
+        android:textColorLink="@color/udacity"
+        app:fontFamily="@font/ubuntu" />
+
+</RelativeLayout>
