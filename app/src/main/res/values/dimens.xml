@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="contact_width">250dp</dimen>
+    <dimen name="textview_padding">16dp</dimen>
+    <dimen name="margin_top_or_bottom">-10dp</dimen>
+    <dimen name="tall_layout_height">100dp</dimen>
+    <dimen name="simple_spacing">20dp</dimen>
+
+</resources>
